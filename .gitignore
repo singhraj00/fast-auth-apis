@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment / virtualenv
+env/
+venv/
+ENV/
+.venv/
+.env
+
+# Pycharm / IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQLite database (if using for dev)
+*.db
+*.sqlite3
+
+# Migrations (optional, keep if you want versioned migrations)
+migrations/__pycache__/
+migrations/*.pyc
+
+# Logs
+*.log
+
+# Coverage / testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Ignore compiled files
+*.so
+*.dylib
+*.pyd
+
+# Secrets / credentials
+*.pem
+*.key
