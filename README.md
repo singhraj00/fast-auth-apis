@@ -79,6 +79,7 @@ uvicorn main:app --reload
 
 ### Register a new user:
 
+```
 POST /register
 {
   "email": "user@example.com",
@@ -100,5 +101,7 @@ POST /change-password
   "token": "your_reset_token_here",
   "new_password": "NewStrongPass123"
 }
+
+```
 
 
